@@ -6,7 +6,7 @@
     background-color: black;
 }
 
-.body {
+body {
     font-family: 'Roboto', sans-serif;
 }
 
@@ -16,6 +16,7 @@
     background-color: #800000;
     padding-bottom: 10px;
     font-weight: bolder;
+    font-family: serif;
 }
 
 .donate-section-para {
@@ -24,6 +25,7 @@
     background-color: #800000;
     padding-bottom: 10px;
     font-style: italic;
+    font-family: serif;
 }
 
 

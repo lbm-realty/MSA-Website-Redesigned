@@ -1,27 +1,30 @@
 body {
-    background: black;
-    color: #000;
+    background-color: black;
     margin: 0;
-  }
+}
+
+.wrapper {
+    background-color: black;
+}
   
-  .container {
-      position: relative;
-  }
-  
-  .wrapper-holder{
-      display: flexbox;
-      margin: 30px;
-      margin-left: 110px;
-  }
-  
-  .images{
-      height: 470px;
-      width: 310px;
-      margin: 20px;
-      border-radius: 25px;
-      box-shadow: 6px 6px 7px 7px rgb(151, 35, 35);
-      border: 1.5px solid rgb(151, 35, 35);
-  }
+.container {
+    position: relative;
+}
+
+.wrapper-holder{
+    display: flexbox;
+    margin: 30px;
+    margin-left: 110px;
+}
+
+.images{
+    height: 470px;
+    width: 310px;
+    margin: 20px;
+    border-radius: 25px;
+    box-shadow: 6px 6px 7px 7px rgb(151, 35, 35);
+    border: 1.5px solid rgb(151, 35, 35);
+}
   
   @media all and (width < 600px) {
       .wrapper-holder {
