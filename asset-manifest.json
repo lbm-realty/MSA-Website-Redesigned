@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/static/css/main.af4d6ebd.css",
+    "main.js": "/static/js/main.e3822edc.js",
+    "static/media/slide-show-8.png": "/static/media/slide-show-8.7a8a373b96da1b94a35e.png",
+    "static/media/slide-show-2.png": "/static/media/slide-show-2.43124ffc884d089e9ab0.png",
+    "static/media/slide-show-7.png": "/static/media/slide-show-7.b76bf5bdc5c61f72163b.png",
+    "static/media/slide-show-5.png": "/static/media/slide-show-5.1a45b3668197781936f5.png",
+    "static/media/Austin-trip.png": "/static/media/Austin-trip.042379943feedfad334d.png",
+    "static/media/msa-socials.png": "/static/media/msa-socials.084f02f6c433470f6d1a.png",
+    "static/media/slide-show-6.png": "/static/media/slide-show-6.793a997d1d1d497f39a1.png",
+    "static/media/slide-show-4.png": "/static/media/slide-show-4.b589dd3f9a53ce661bbb.png",
+    "static/media/new-mexico.png": "/static/media/new-mexico.2f6b86d6ad80128f9783.png",
+    "static/media/slide-show-3.png": "/static/media/slide-show-3.909c0aef4ac68bb3c745.png",
+    "static/media/slide-show-1.jpg": "/static/media/slide-show-1.a857e0bdc5908ffb07a5.jpg",
+    "static/media/Question3.png": "/static/media/Question3.9c75382eb1fb87f2b29b.png",
+    "static/media/Question5.png": "/static/media/Question5.b5e73242bf3d9f61f8ae.png",
+    "static/media/Question2.png": "/static/media/Question2.9083298aa4680cf9f8de.png",
+    "static/media/Question1.png": "/static/media/Question1.a8d9ce871fa0b0739cd3.png",
+    "static/media/Question6.png": "/static/media/Question6.163d98dcf141342c26ce.png",
+    "static/media/Question4.png": "/static/media/Question4.ecfcf64a078104c4f99b.png",
+    "static/media/instagram-logo.png": "/static/media/instagram-logo.498e31d90e6807823fcb.png",
+    "static/media/msa-logo.png": "/static/media/msa-logo.a4d27b5a25cec49bb9b7.png",
+    "static/media/youtube-logo.png": "/static/media/youtube-logo.9930d4634c8282346515.png",
+    "static/media/discord-logo.png": "/static/media/discord-logo.8cfe68de805f0c4dc6e2.png",
+    "index.html": "/index.html",
+    "main.af4d6ebd.css.map": "/static/css/main.af4d6ebd.css.map",
+    "main.e3822edc.js.map": "/static/js/main.e3822edc.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.af4d6ebd.css",
+    "static/js/main.e3822edc.js"
+  ]
+}
