@@ -35,6 +35,7 @@ function ImageGallery() {
           </div>
         </div>
       </div>
+      <div className="black-box-2"></div>
     </>
   );
 }

@@ -31,7 +31,6 @@ function DonationContainer() {
             </div>
           </div>
         </div>
-        <div class="black-box-2"></div>
       </body>
     </>
   );

@@ -1,4 +1,6 @@
 .container {
+    justify-content: center;
+    margin-top: 2px;
     display: flex;
     width: 100%;
     height: 100%;
@@ -8,12 +10,10 @@
 .calendar-container {
     margin-bottom: 50px;
     margin-top: 100px;
-    margin-left: 350px;
     background: rgb(18, 18, 18);
-    border-radius: 20px;
-    box-shadow: 0 0 15px rgba(51, 49, 49, 0.5);
+    border-radius: 30px;
     width: 500px;
-    height: 550px;
+    height: 630px;
     padding: 20px;
 }
 
@@ -43,12 +43,14 @@
 }
   
 .dropdown-1 {
+    margin-right: 5px;
     position: relative;
     display: inline-block;
   }
   
 .dropdown-content-months {
     display: none;
+    padding: 0;
     position: absolute;
     background-color: #1f1d1d;
     min-width: 90px;
@@ -58,7 +60,9 @@
 
 .month {
     color: rgb(255, 255, 255);
-    padding: 10px 7px;
+    padding: 3.5px 15px;
+    align-items: center;
+    justify-content: center;
     text-decoration: none;
     display: block;
 }
@@ -80,6 +84,7 @@
 }
 
 .dropdown-2 {
+    margin-left: 5px;
     position: relative;
     display: inline-block;
   }
@@ -95,9 +100,12 @@
 
 .year {
     color: rgb(255, 255, 255);
-    padding: 9px 6px;
+    padding: 3.5px 6px;
     text-decoration: none;
     display: block;
+    align-items: center;
+    justify-content: center;
+
 }
   
 
@@ -127,12 +135,20 @@
     border: 1px solid #000;
 }
 
-#calendar-days {
+.calendar-days-div {
     display: grid;
+    color: white;
     grid-template-columns: repeat(7, 1fr);
     gap: 1px;
     background-color: #000;
-    border: 1px solid #000;
+}
+
+#calendar-days {
+    border: 1px solid #2e2b2b;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 0;
 }
 
 .calendar-day {
