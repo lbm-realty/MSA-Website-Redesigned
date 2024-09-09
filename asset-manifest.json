@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/MSA-Website-Redesigned/static/css/main.6008cae6.css",
-    "main.js": "/MSA-Website-Redesigned/static/js/main.2b0c326a.js",
+    "main.js": "/MSA-Website-Redesigned/static/js/main.1f34d97d.js",
     "static/media/slide-show-8.png": "/MSA-Website-Redesigned/static/media/slide-show-8.7a8a373b96da1b94a35e.png",
     "static/media/slide-show-2.png": "/MSA-Website-Redesigned/static/media/slide-show-2.43124ffc884d089e9ab0.png",
     "static/media/slide-show-7.png": "/MSA-Website-Redesigned/static/media/slide-show-7.b76bf5bdc5c61f72163b.png",
@@ -25,10 +25,10 @@
     "static/media/discord-logo.png": "/MSA-Website-Redesigned/static/media/discord-logo.8cfe68de805f0c4dc6e2.png",
     "index.html": "/MSA-Website-Redesigned/index.html",
     "main.6008cae6.css.map": "/MSA-Website-Redesigned/static/css/main.6008cae6.css.map",
-    "main.2b0c326a.js.map": "/MSA-Website-Redesigned/static/js/main.2b0c326a.js.map"
+    "main.1f34d97d.js.map": "/MSA-Website-Redesigned/static/js/main.1f34d97d.js.map"
   },
   "entrypoints": [
     "static/css/main.6008cae6.css",
-    "static/js/main.2b0c326a.js"
+    "static/js/main.1f34d97d.js"
   ]
 }
