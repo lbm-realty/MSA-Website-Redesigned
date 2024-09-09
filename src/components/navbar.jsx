@@ -1,11 +1,12 @@
 import { useEffect, useState } from 'react';
 import '../css/navbar.css'
 import logo from '../images/msa-logo.png'
-import { Link } from 'react-router-dom';
+import { Link, useLocation } from 'react-router-dom';
 
 function Navbar() {
   const [isMobile, setIsMobile] = useState(window.innerWidth < 600);
   const [menuOpen, setMenuOpen] = useState(false);
+  const location = useLocation();
 
   useEffect(() => {
     function handleResize() {
@@ -23,6 +24,10 @@ function Navbar() {
   function toggleClick() {
     setMenuOpen(!menuOpen);
   }
+
+  useEffect(() => {
+    setMenuOpen(false);
+  }, [location]);
 
   return (
       <div>

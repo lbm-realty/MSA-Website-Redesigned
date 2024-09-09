@@ -76,7 +76,7 @@
     .navbar {
         padding-left: 0;
         width: 100%;
-        justify-content: space-around;
+        /* justify-content: space-ar; */
     }
     .navbar ul{
         position: absolute;
@@ -97,6 +97,7 @@
         padding: 20px 70px 20px 70px;
     }
     .menu-icon{
+        padding-right: 30px;
         display: block;
         scale: 0.6;
     }
