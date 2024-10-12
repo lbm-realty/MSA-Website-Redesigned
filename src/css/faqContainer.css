@@ -26,18 +26,35 @@ body {
     border: 1.5px solid rgb(151, 35, 35);
 }
   
-  @media all and (width < 600px) {
-      .wrapper-holder {
-          display: flexbox;
-          margin-left: 35px;
-      }
-      .images {
-          height: 470px;
-          width: 300px;
-      }
-  }
-  
-  .black-box-2{
-      height: 110px;
-      background-color: black;
-  }
+@media all and (width < 600px) {
+    .wrapper-holder {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .images {
+        height: 470px;
+        width: 300px;
+    }
+}
+
+.black-box-2{
+    height: 110px;
+    background-color: black;
+}
+
+@media all and (600px < width < 928px) {
+    .wrapper-holder{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        margin: 30px;
+        background: rgb(0, 0, 0);
+    }
+
+    .images {
+        scale: 0.9;
+        margin: 10px;
+
+    }
+}

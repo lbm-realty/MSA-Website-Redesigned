@@ -1,21 +1,69 @@
-import "../css/comingSoon.css";
+import React, { useState } from "react";
+import "../css/comingSoon.css"; // Import the CSS file for styling
+import pdf1 from "../images/MSA August Newsletter[1].pdf";
+import pdf2 from "../images/MSA September Newsletter[1].pdf";
 
-function ComingSoon() {
+const ComingSoon = () => {
+  const archivePdfs = []
+
+  const pdfFiles = [
+    { month: "September", file: pdf2 },
+    { month: "August", file: pdf1 }
+  ];
+  const [isArchiveOpen, setArchiveOpen] = useState();
+  const [ishovered, setHovered] = useState();
+
+  const toggleArchive = () => {
+    setArchiveOpen(!isArchiveOpen);
+  };
+
+  const toggleHover = () => {
+    setArchiveOpen(!isArchiveOpen);
+    setHovered(!ishovered);
+  };
+
   return (
-    <>
-    <div className="outerBox">
-      <div class="newsletter-container">
-        <h1 className="newsletter-header">Coming Soon!</h1>
-        <p>Thank you for your interest in our newsletter!</p>
-        <p>
-          We're working hard to bring you exciting updates, insights, and
-          exclusive content.
-        </p>
-        <p>Stay tuned—our newsletter will be launching soon!</p>
+    <div className="newsletter-container">
+      <h3 className="newsletter-header">Welcome to our Newsletter!</h3>
+      <div className="inner-container">
+        {pdfFiles.map((pdf, index) => (
+          <div className="pdf-box" key={index}>
+            <h3>{pdf.month} Newsletter</h3>
+            <iframe
+              src={pdf.file}
+              title={`Newsletter-${pdf.month}`}
+              className="pdf-frame"
+            />
+          </div>
+        ))}
       </div>
+
+      <div className="archive-section">
+        { window.width > "600px" ?
+        <button onClick={toggleArchive} className="archive-toggle-button">
+          {isArchiveOpen ? "Hide Archives" : "Show Archives"}
+        </button> :
+          <button onClick={toggleHover} className="archive-toggle-button">
+          {isArchiveOpen ? "Hide Archives" : "Show Archives"}
+          </button>
+        }
+        <div className="adjusting-border"></div>
+
+        <div className={`archive-content ${isArchiveOpen ? "open" : "closed"}`}>
+        {archivePdfs.map((pdf, index) => (
+          <div className="pdf-box" key={index}>
+            <h3>{pdf.month} Newsletter</h3>
+            <iframe
+              src={pdf.file}
+              title={`Newsletter-${pdf.month}`}
+              className="pdf-frame"
+            />
+          </div>
+        ))}
+        </div>
       </div>
-    </>
+    </div>
   );
-}
+};
 
 export default ComingSoon;

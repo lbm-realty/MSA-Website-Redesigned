@@ -141,3 +141,39 @@ ul{
         padding: 0;
     }
 }
+
+@media all and (600px < width < 928px) {
+    .msa-logo {
+        /* scale: 0.9; */
+        width: 100px;
+    }
+
+    .about, .about-header {
+        font-size: 23px;
+    }
+
+    .about-text {
+        font-size: 16px;
+        margin-top: 6px;
+    }
+    .connect {
+        padding-bottom: 0px;
+        display: flexbox;
+        justify-content: center;
+    }
+
+    .contactHeading {
+        font-size: 23px;
+        padding-left: 9px;
+    }
+
+    .whatsapp, .email, .location {
+        scale: 0.7;
+    }
+     
+     .numberLink, .emailLink, .locationLink {
+        font-size: 16px;
+        margin-left: 0;
+        padding: 0;
+    }
+}

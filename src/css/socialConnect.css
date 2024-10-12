@@ -140,3 +140,30 @@
         scale: 0.7;
     }
 }
+
+@media all and (600px < width < 928px) {    
+    .socials-connect {
+        scale: 0.8;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .connect-header {
+        padding-top: 50px;
+        display: flex;
+        justify-content: center;
+        background-color: black;
+    }
+    
+    .connect-header h1 {
+        scale: 0.8;
+    }
+
+    .connect-discord, .connect-youtube, .connect-instagram, .connect-facebook {
+        scale: 0.8;
+    }
+    .discord-header, .youtube-header, .instagram-header, .facebook-header {
+        scale: 0.8;
+    }
+}
