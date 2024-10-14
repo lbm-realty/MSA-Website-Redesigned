@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/MSA-Website-Redesigned/static/css/main.ce551e8d.css",
-    "main.js": "/MSA-Website-Redesigned/static/js/main.d0180ddf.js",
+    "main.js": "/MSA-Website-Redesigned/static/js/main.53d86425.js",
     "static/media/MSA September Newsletter[1].pdf": "/MSA-Website-Redesigned/static/media/MSA September Newsletter[1].58411519975bf4bcb87d.pdf",
     "static/media/MSA August Newsletter[1].pdf": "/MSA-Website-Redesigned/static/media/MSA August Newsletter[1].ee0f920ba9d6d94952b0.pdf",
     "static/media/slide-show-8.png": "/MSA-Website-Redesigned/static/media/slide-show-8.7a8a373b96da1b94a35e.png",
@@ -39,10 +39,10 @@
     "static/media/discord-logo.png": "/MSA-Website-Redesigned/static/media/discord-logo.8cfe68de805f0c4dc6e2.png",
     "index.html": "/MSA-Website-Redesigned/index.html",
     "main.ce551e8d.css.map": "/MSA-Website-Redesigned/static/css/main.ce551e8d.css.map",
-    "main.d0180ddf.js.map": "/MSA-Website-Redesigned/static/js/main.d0180ddf.js.map"
+    "main.53d86425.js.map": "/MSA-Website-Redesigned/static/js/main.53d86425.js.map"
   },
   "entrypoints": [
     "static/css/main.ce551e8d.css",
-    "static/js/main.d0180ddf.js"
+    "static/js/main.53d86425.js"
   ]
 }
