@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "../css/comingSoon.css"; // Import the CSS file for styling
+import "../css/newsletter-component.css"; // Import the CSS file for styling
 import pdf1 from "../images/MSA August Newsletter[1].pdf";
 import pdf2 from "../images/MSA September Newsletter[1].pdf";
 

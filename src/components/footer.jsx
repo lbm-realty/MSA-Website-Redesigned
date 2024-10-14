@@ -36,7 +36,11 @@ function Footer() {
           </li>
           <li>
             <img className="location" src={location} alt="" />
-            <div className="locationLink">3419 Lasalle Avenue, Lubbock, TX</div>
+            <div className="locationLink">3419 LaSalle Avenue, Lubbock, TX (Main Masjid)</div> 
+          </li>
+          <li>
+            <img className="location" src={location} alt="" />
+            <div className="locationLink">2222 15th Street, Lubbock, TX (Student Masjid)</div>
           </li>
         </ul>
       </div>

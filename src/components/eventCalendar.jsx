@@ -129,7 +129,7 @@ function EventCalendar() {
       })
     })
 
-  return (
+  return ( 
     <>
       <div className="container">
         <h4>Join us for our Events!</h4>
