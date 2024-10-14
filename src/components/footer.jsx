@@ -18,7 +18,7 @@ function Footer() {
           This website is designed to help <br />
           incoming freshmen and Tech students <br />
           learn about the MSA and connect <br />
-          with the muslim community at Tech.
+          with the Muslim community at Tech.
         </div>
       </div>
       <div className="connect">
