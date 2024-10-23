@@ -95,13 +95,13 @@
     opacity: 80%;
 }
 
-@media all and (width < 600px) {
+@media all and (width < 670px) {
     .ayah-arabic {
         position: absolute;
         top: 62%;
         transform: translate(0, -100%); 
         color: white;
-        font-size: 1.85rem; 
+        font-size: 1.75rem; 
         font-weight: bold; 
         padding: 1vh 0 0 1vw; 
         background-color: rgb(44, 42, 42);
@@ -126,7 +126,7 @@
     }
 }
 
-@media all and (600px < width < 928px) {
+@media all and (671px < width < 928px) {
     .banner {
         scale: 0.85;
     }
